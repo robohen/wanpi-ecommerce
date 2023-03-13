@@ -51,8 +51,8 @@ const Home = () => {
               />
               <div className='small-banner-content position-absolute'>
               <h4 className=' fw-bold'>NEW ARRIVAL</h4>
-                <h5 className='text-light'>Challenge Big Mom <br/> to an eating contest</h5>
-                <h4 className=' fw-bold'>
+                <h5 className='text-light'>Challenge Big Mom <br/> to an eating competition.</h5>
+                <h4 className='text-dark fw-bold'>
                   From $999.00 <br/>or 41.62/mo.
                 </h4>
                 </div>
