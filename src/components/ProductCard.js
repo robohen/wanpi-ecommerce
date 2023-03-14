@@ -3,7 +3,6 @@ import ReactStars from "react-rating-stars-component";
 import {Link, useLocation} from 'react-router-dom';
 import prodcompare from "../images/images/prodcompare.svg";
 import wish from "../images/images/wish.svg";
-import wishlist from "../images/images/wishlist.svg";
 import choppa1 from "../images/choppa-pop01.jpg";
 import choppa2 from "../images/choppa-pop02.jpg";
 import addcart from "../images/images/add-cart.svg";
@@ -18,9 +17,9 @@ const ProductCard = (props) => {
         } `}
         >
         <Link to={`${
-            location.pathname == '/' 
+            location.pathname === '/' 
             ?  "/product/:id" 
-            :location.pathname == "/product/:id"
+            :location.pathname === "/product/:id"
             ?"/product/1" : 
             ":id"}`} className='product-card position-relative'>
             <div className='wishlist-icon position-absolute'>
@@ -66,14 +65,14 @@ const ProductCard = (props) => {
         </Link>
     </div>
     <div className={` ${
-        location.pathname == "/product" ? `gr-${grid}` : "col-3"
+        location.pathname === "/product" ? `gr-${grid}` : "col-3"
         } `}
         >
         <Link 
         to={`${
-            location.pathname == '/' 
+            location.pathname === '/' 
             ?  "/product/:id" 
-            :location.pathname == "/product/:id"
+            :location.pathname === "/product/:id"
             ?"/product/1" : 
             ":id"}`}
         className='product-card position-relative'>

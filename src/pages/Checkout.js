@@ -77,12 +77,13 @@ const Checkout = () => {
                                 /></div>
                             <div className='flex-grow-1'>
                                 <select
-                                name=''
+                                name='text'
                                 className='form-control form-select'
-                                id=""
+                                id="state"
+                                placeholder='State'
                                 >
                                     <option 
-                                    value=""
+                                    value="option"
                                     select disabled
                                     >
                                         Select State
