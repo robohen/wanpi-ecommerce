@@ -68,18 +68,18 @@ const Footer = () => {
               </div></div>
           <div className='col-3'>
             <h4 className='text-white mb-4'>Account</h4><div className='footer-links d-flex flex-column'>
-              <Link className='text-white py-2 mb-1'>Laptops</Link>
-              <Link className='text-white py-2 mb-1'>Headphones</Link>
-              <Link className='text-white py-2 mb-1'>Tablets</Link>
-              <Link className='text-white py-2 mb-1'>Watches</Link>
+              <Link className='text-white py-2 mb-1'>My Account</Link>
+              <Link className='text-white py-2 mb-1'>Switch Accounts</Link>
+              <Link className='text-white py-2 mb-1'>Account Settings</Link>
+              <Link className='text-white py-2 mb-1'>Log out</Link>
               </div></div>
           <div className='col-2'>
             <h4 className='text-white mb-4'>Quick links</h4>
             <div className='footer-links d-flex flex-column'>
-              <Link className='text-white py-2 mb-1'>Laptops</Link>
-              <Link className='text-white py-2 mb-1'>Headphones</Link>
-              <Link className='text-white py-2 mb-1'>Tablets</Link>
-              <Link className='text-white py-2 mb-1'>Watches</Link>
+              <Link className='text-white py-2 mb-1'>Browsing History</Link>
+              <Link className='text-white py-2 mb-1'>What's Hot</Link>
+              <Link className='text-white py-2 mb-1'>Random Product</Link>
+              <Link className='text-white py-2 mb-1'>New Products</Link>
               </div>
               </div>
         </div>
