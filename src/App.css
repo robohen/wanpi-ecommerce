@@ -59,6 +59,9 @@ a{
 }
 .header-upper{
   background-color: var(--color-131921);
+  padding: 15px 0; /* Add vertical padding to the header-upper */
+  min-height: 60px; /* Set a minimum height to ensure content is visible */
+
 }
 .header-bottom{
   background-color: var(--color-3b44149);
@@ -704,3 +707,51 @@ color: var(--color-1c1c1b);
   color: var(--color-777777);
 }
 /*Shipping Page styling ends*/
+/* Styles for screens with a width less than or equal to 768 pixels (e.g., phones) */
+@media (max-width: 768px) {
+  /* Example: Change the layout to a single column for phones */
+  .container {
+    display: block; /* Change to block level */
+  }
+  .col-3, .col-9 {
+    width: 100%; /* Make columns take the full width */
+    margin-bottom: 20px; /* Add some spacing between elements */
+  }
+}
+
+/* Styles for screens with a width between 769 and 1024 pixels (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Example: Adjust the layout for tablets */
+  .container {
+    padding: 20px; /* Add some padding to the container */
+  }
+  .col-3 {
+    width: 25%; /* Show four filter cards in a row */
+    margin-right: 10px; /* Add some spacing between filter cards */
+    margin-bottom: 20px;
+  }
+  .col-9 {
+    width: 75%; /* Occupy 75% of the width for the main content */
+  }
+}
+
+/* Styles for screens with a width greater than 1024 pixels (e.g., desktops) */
+@media (min-width: 1025px) {
+  /* Example: Adjust the layout for desktops */
+  .container {
+    padding: 40px; /* Add more padding to the container */
+  }
+  .col-3 {
+    width: 100%; /* Show five filter cards in a row */
+    margin-right: 20px; /* Add more spacing between filter cards */
+    margin-bottom: 20px;
+  }
+  .col-9 {
+    width: 100%; /* Occupy 80% of the width for the main content */
+  }
+}
+@media (max-width: 768px) {
+  .small-banner {
+    width: 100%;
+  }
+}

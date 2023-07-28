@@ -130,7 +130,7 @@ const Home = () => {
                   <h6>Manga</h6>
                   <p>10 Items</p>
                   </div>
-                  <img src={Vol1} alt='manga' className="img-fluid"/>
+                  <img src={Vol1} alt='manga' className="img-fluid w-50"/>
                   </div>
                   <div className='d-flex gap align-items-center'>
                     <div>
@@ -159,7 +159,7 @@ const Home = () => {
                   <h6>Manga</h6>
                   <p>10 Items</p>
                   </div>
-                  <img src={Vol61} alt='Vol61'/>
+                  <img src={Vol61} alt='Vol61' className='img-fluid w-50'/>
                   </div>
                   <div className='d-flex gap align-items-center'>
                     <div>
